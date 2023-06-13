@@ -2,7 +2,11 @@
 Watch the demo & set up here! https://youtu.be/9ik1vv3vv08
 ## Based on our database, we tell you which routes are best!
 
-https://github.com/jeanong2/route-recommender/assets/87474764/1ef7a511-6590-4b07-b81d-3aa0412d78c8
+
+
+https://github.com/jeanong2/route-recommender-app/assets/87474764/fab80d9c-1132-4b74-8017-3c196f131b37
+
+
 
 ## Motivation
 One of the most attractive features that Singapore has is the abundance of greenery and parks that blend seamlessly with its urban landscape. We hope to promote these attractions to encourage more visitors and locals alike to experience our “City in a Garden”, which is a commitment that will remain a top priority as part of the Singapore Green Plan 2030.
