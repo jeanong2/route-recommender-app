@@ -1,0 +1,35 @@
+scalar GraphQLDate
+scalar GraphQLJSON
+scalar ObjectId
+
+type Place {
+	_id: ObjectId
+	type: String
+	properties: Property
+	geometry: Geometry
+}
+
+type Photo {
+	height: Int
+	html_attributions : GraphQLJSON
+	photo_reference: String
+	width: Int
+}
+
+type Property {
+	place_name: String
+	ADDRESS: String
+	place_id: String
+	rating: Float
+	photos: [Photo]
+	description: String
+}
+
+type Geometry {
+	type: String
+	coordinates: GraphQLJSON
+}
+
+type Query {
+	listPlacesWithinPolygon(polyline: String): [Place]!
+}
